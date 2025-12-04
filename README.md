@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+📡 NewsMonkey
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and clean React-based news application that fetches real-time articles using a news API.
+Built to explore API integration, component-based UI, loading states, and infinite news updates.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+📰 Live news fetching from a news API
 
-### `npm start`
+⚛️ React components for modular and reusable UI
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🔄 Dynamic category switching (e.g., Business, Sports, Technology, etc.)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+⏳ Loading spinner & smooth content transitions
 
-### `npm test`
+📱 Responsive design for mobile, tablet, and desktop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔍 Clean UI with focus on readability and user experience
 
-### `npm run build`
+🖥️ Demo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+(Add your deployed link here once published)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+https://your-demo-url.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🧩 Project Structure
+NewsMonkey/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.js
+│   └── index.js
+│── package.json
+└── README.md
 
-### `npm run eject`
+🛠️ Tech Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+React.js
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+JavaScript (ES6)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+News API (or any other news provider)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Bootstrap / Custom CSS
 
-## Learn More
+Fetch API / Axios for data fetching
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+📦 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/kshitij-create/NewsMonkey.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2️⃣ Navigate into the project folder
+cd NewsMonkey
 
-### Code Splitting
+3️⃣ Install dependencies
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4️⃣ Add your News API key
 
-### Analyzing the Bundle Size
+Create a .env file in the root directory:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+REACT_APP_NEWS_API=your_api_key_here
 
-### Making a Progressive Web App
+5️⃣ Start the development server
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+Your app will run at http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+📸 Screenshots
 
-### Deployment
+(Add your project screenshots here)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![Home Page](./screenshots/home.png)
+![Category Page](./screenshots/category.png)
 
-### `npm run build` fails to minify
+🧠 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Handling API requests in React
+
+Using state & props effectively
+
+Managing loading states and UI skeletons
+
+Structuring a React project for readability
+
+Improving UI through modular components
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+Feel free to open a pull request.
+
+📜 License
+
+This project is released under the MIT License.
+
+👨‍💻 Author
+
+Kshitij Jadhav
+Frontend Developer & AI/ML Enthusiast
+GitHub: @kshitij-create
